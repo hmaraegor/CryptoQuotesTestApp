@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		94F2464B2A9FA73C0062B5F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F2464A2A9FA73C0062B5F6 /* AppDelegate.swift */; };
+		94F2464D2A9FA73C0062B5F6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F2464C2A9FA73C0062B5F6 /* SceneDelegate.swift */; };
+		94F2464F2A9FA73C0062B5F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F2464E2A9FA73C0062B5F6 /* ViewController.swift */; };
+		94F246522A9FA73C0062B5F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94F246502A9FA73C0062B5F6 /* Main.storyboard */; };
+		94F246542A9FA73D0062B5F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94F246532A9FA73D0062B5F6 /* Assets.xcassets */; };
+		94F246572A9FA73D0062B5F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94F246552A9FA73D0062B5F6 /* LaunchScreen.storyboard */; };
+		94F246622A9FA73D0062B5F6 /* CryptoQuotesTestAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F246612A9FA73D0062B5F6 /* CryptoQuotesTestAppTests.swift */; };
+		94F2466C2A9FA73D0062B5F6 /* CryptoQuotesTestAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F2466B2A9FA73D0062B5F6 /* CryptoQuotesTestAppUITests.swift */; };
+		94F2466E2A9FA73D0062B5F6 /* CryptoQuotesTestAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F2466D2A9FA73D0062B5F6 /* CryptoQuotesTestAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		94F2465E2A9FA73D0062B5F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94F2463F2A9FA73C0062B5F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94F246462A9FA73C0062B5F6;
+			remoteInfo = CryptoQuotesTestApp;
+		};
+		94F246682A9FA73D0062B5F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94F2463F2A9FA73C0062B5F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94F246462A9FA73C0062B5F6;
+			remoteInfo = CryptoQuotesTestApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		94F246472A9FA73C0062B5F6 /* CryptoQuotesTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoQuotesTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94F2464A2A9FA73C0062B5F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		94F2464C2A9FA73C0062B5F6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		94F2464E2A9FA73C0062B5F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		94F246512A9FA73C0062B5F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		94F246532A9FA73D0062B5F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		94F246562A9FA73D0062B5F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		94F246582A9FA73D0062B5F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94F2465D2A9FA73D0062B5F6 /* CryptoQuotesTestAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CryptoQuotesTestAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94F246612A9FA73D0062B5F6 /* CryptoQuotesTestAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoQuotesTestAppTests.swift; sourceTree = "<group>"; };
+		94F246672A9FA73D0062B5F6 /* CryptoQuotesTestAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CryptoQuotesTestAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94F2466B2A9FA73D0062B5F6 /* CryptoQuotesTestAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoQuotesTestAppUITests.swift; sourceTree = "<group>"; };
+		94F2466D2A9FA73D0062B5F6 /* CryptoQuotesTestAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoQuotesTestAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94F246442A9FA73C0062B5F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94F2465A2A9FA73D0062B5F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94F246642A9FA73D0062B5F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		94F2463E2A9FA73C0062B5F6 = {
+			isa = PBXGroup;
+			children = (
+				94F246492A9FA73C0062B5F6 /* CryptoQuotesTestApp */,
+				94F246602A9FA73D0062B5F6 /* CryptoQuotesTestAppTests */,
+				94F2466A2A9FA73D0062B5F6 /* CryptoQuotesTestAppUITests */,
+				94F246482A9FA73C0062B5F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		94F246482A9FA73C0062B5F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94F246472A9FA73C0062B5F6 /* CryptoQuotesTestApp.app */,
+				94F2465D2A9FA73D0062B5F6 /* CryptoQuotesTestAppTests.xctest */,
+				94F246672A9FA73D0062B5F6 /* CryptoQuotesTestAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94F246492A9FA73C0062B5F6 /* CryptoQuotesTestApp */ = {
+			isa = PBXGroup;
+			children = (
+				94F2464A2A9FA73C0062B5F6 /* AppDelegate.swift */,
+				94F2464C2A9FA73C0062B5F6 /* SceneDelegate.swift */,
+				94F2464E2A9FA73C0062B5F6 /* ViewController.swift */,
+				94F246502A9FA73C0062B5F6 /* Main.storyboard */,
+				94F246532A9FA73D0062B5F6 /* Assets.xcassets */,
+				94F246552A9FA73D0062B5F6 /* LaunchScreen.storyboard */,
+				94F246582A9FA73D0062B5F6 /* Info.plist */,
+			);
+			path = CryptoQuotesTestApp;
+			sourceTree = "<group>";
+		};
+		94F246602A9FA73D0062B5F6 /* CryptoQuotesTestAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				94F246612A9FA73D0062B5F6 /* CryptoQuotesTestAppTests.swift */,
+			);
+			path = CryptoQuotesTestAppTests;
+			sourceTree = "<group>";
+		};
+		94F2466A2A9FA73D0062B5F6 /* CryptoQuotesTestAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				94F2466B2A9FA73D0062B5F6 /* CryptoQuotesTestAppUITests.swift */,
+				94F2466D2A9FA73D0062B5F6 /* CryptoQuotesTestAppUITestsLaunchTests.swift */,
+			);
+			path = CryptoQuotesTestAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94F246462A9FA73C0062B5F6 /* CryptoQuotesTestApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94F246712A9FA73D0062B5F6 /* Build configuration list for PBXNativeTarget "CryptoQuotesTestApp" */;
+			buildPhases = (
+				94F246432A9FA73C0062B5F6 /* Sources */,
+				94F246442A9FA73C0062B5F6 /* Frameworks */,
+				94F246452A9FA73C0062B5F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CryptoQuotesTestApp;
+			productName = CryptoQuotesTestApp;
+			productReference = 94F246472A9FA73C0062B5F6 /* CryptoQuotesTestApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		94F2465C2A9FA73D0062B5F6 /* CryptoQuotesTestAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94F246742A9FA73D0062B5F6 /* Build configuration list for PBXNativeTarget "CryptoQuotesTestAppTests" */;
+			buildPhases = (
+				94F246592A9FA73D0062B5F6 /* Sources */,
+				94F2465A2A9FA73D0062B5F6 /* Frameworks */,
+				94F2465B2A9FA73D0062B5F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94F2465F2A9FA73D0062B5F6 /* PBXTargetDependency */,
+			);
+			name = CryptoQuotesTestAppTests;
+			productName = CryptoQuotesTestAppTests;
+			productReference = 94F2465D2A9FA73D0062B5F6 /* CryptoQuotesTestAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		94F246662A9FA73D0062B5F6 /* CryptoQuotesTestAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94F246772A9FA73D0062B5F6 /* Build configuration list for PBXNativeTarget "CryptoQuotesTestAppUITests" */;
+			buildPhases = (
+				94F246632A9FA73D0062B5F6 /* Sources */,
+				94F246642A9FA73D0062B5F6 /* Frameworks */,
+				94F246652A9FA73D0062B5F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94F246692A9FA73D0062B5F6 /* PBXTargetDependency */,
+			);
+			name = CryptoQuotesTestAppUITests;
+			productName = CryptoQuotesTestAppUITests;
+			productReference = 94F246672A9FA73D0062B5F6 /* CryptoQuotesTestAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94F2463F2A9FA73C0062B5F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					94F246462A9FA73C0062B5F6 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					94F2465C2A9FA73D0062B5F6 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 94F246462A9FA73C0062B5F6;
+					};
+					94F246662A9FA73D0062B5F6 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 94F246462A9FA73C0062B5F6;
+					};
+				};
+			};
+			buildConfigurationList = 94F246422A9FA73C0062B5F6 /* Build configuration list for PBXProject "CryptoQuotesTestApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 94F2463E2A9FA73C0062B5F6;
+			productRefGroup = 94F246482A9FA73C0062B5F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94F246462A9FA73C0062B5F6 /* CryptoQuotesTestApp */,
+				94F2465C2A9FA73D0062B5F6 /* CryptoQuotesTestAppTests */,
+				94F246662A9FA73D0062B5F6 /* CryptoQuotesTestAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94F246452A9FA73C0062B5F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94F246572A9FA73D0062B5F6 /* LaunchScreen.storyboard in Resources */,
+				94F246542A9FA73D0062B5F6 /* Assets.xcassets in Resources */,
+				94F246522A9FA73C0062B5F6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94F2465B2A9FA73D0062B5F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94F246652A9FA73D0062B5F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94F246432A9FA73C0062B5F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94F2464F2A9FA73C0062B5F6 /* ViewController.swift in Sources */,
+				94F2464B2A9FA73C0062B5F6 /* AppDelegate.swift in Sources */,
+				94F2464D2A9FA73C0062B5F6 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94F246592A9FA73D0062B5F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94F246622A9FA73D0062B5F6 /* CryptoQuotesTestAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94F246632A9FA73D0062B5F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94F2466E2A9FA73D0062B5F6 /* CryptoQuotesTestAppUITestsLaunchTests.swift in Sources */,
+				94F2466C2A9FA73D0062B5F6 /* CryptoQuotesTestAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		94F2465F2A9FA73D0062B5F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94F246462A9FA73C0062B5F6 /* CryptoQuotesTestApp */;
+			targetProxy = 94F2465E2A9FA73D0062B5F6 /* PBXContainerItemProxy */;
+		};
+		94F246692A9FA73D0062B5F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94F246462A9FA73C0062B5F6 /* CryptoQuotesTestApp */;
+			targetProxy = 94F246682A9FA73D0062B5F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		94F246502A9FA73C0062B5F6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94F246512A9FA73C0062B5F6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		94F246552A9FA73D0062B5F6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94F246562A9FA73D0062B5F6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		94F2466F2A9FA73D0062B5F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		94F246702A9FA73D0062B5F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94F246722A9FA73D0062B5F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NX67BD27T2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CryptoQuotesTestApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hmaraegor.CryptoQuotesTestApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		94F246732A9FA73D0062B5F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NX67BD27T2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CryptoQuotesTestApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hmaraegor.CryptoQuotesTestApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		94F246752A9FA73D0062B5F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NX67BD27T2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hmaraegor.CryptoQuotesTestAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CryptoQuotesTestApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CryptoQuotesTestApp";
+			};
+			name = Debug;
+		};
+		94F246762A9FA73D0062B5F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NX67BD27T2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hmaraegor.CryptoQuotesTestAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CryptoQuotesTestApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CryptoQuotesTestApp";
+			};
+			name = Release;
+		};
+		94F246782A9FA73D0062B5F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NX67BD27T2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hmaraegor.CryptoQuotesTestAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CryptoQuotesTestApp;
+			};
+			name = Debug;
+		};
+		94F246792A9FA73D0062B5F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NX67BD27T2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hmaraegor.CryptoQuotesTestAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CryptoQuotesTestApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94F246422A9FA73C0062B5F6 /* Build configuration list for PBXProject "CryptoQuotesTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94F2466F2A9FA73D0062B5F6 /* Debug */,
+				94F246702A9FA73D0062B5F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94F246712A9FA73D0062B5F6 /* Build configuration list for PBXNativeTarget "CryptoQuotesTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94F246722A9FA73D0062B5F6 /* Debug */,
+				94F246732A9FA73D0062B5F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94F246742A9FA73D0062B5F6 /* Build configuration list for PBXNativeTarget "CryptoQuotesTestAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94F246752A9FA73D0062B5F6 /* Debug */,
+				94F246762A9FA73D0062B5F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94F246772A9FA73D0062B5F6 /* Build configuration list for PBXNativeTarget "CryptoQuotesTestAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94F246782A9FA73D0062B5F6 /* Debug */,
+				94F246792A9FA73D0062B5F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 94F2463F2A9FA73C0062B5F6 /* Project object */;
+}
