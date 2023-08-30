@@ -18,8 +18,7 @@ class FeedCell: UITableViewCell {
     // MARK: - Setup views
 
     func configure(
-        with coinData: CMCData,
-        completion: @escaping (Int) -> Bool
+        with coinData: CMCData
     ) {
         label.text = coinData.name
         setupViews()

@@ -67,18 +67,11 @@ extension FeedViewController {
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-
         let cell = tableView.dequeueReusableCell(withIdentifier: FeedCell.identifier, for: indexPath)
         guard let feelCell = cell as? FeedCell else { return cell }
 
-
-        feelCell.tag = indexPath.row
         let content = coins[indexPath.row]
-        feelCell.configure(
-            with: content
-        ) { theTag in
-            return theTag == indexPath.row
-        }
+        feelCell.configure(with: content)
 
         return feelCell
     }

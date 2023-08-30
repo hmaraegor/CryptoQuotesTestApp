@@ -1,17 +1,18 @@
 import UIKit
 
 protocol ICoinView: UIView {
-    var coinImage: UIImageView { get }
 }
 
 class CoinView: UIView, ICoinView {
     
     // MARK: - UI Components
 
-    lazy var coinImage: UIImageView = {
-        let view = UIImageView()
-        view.image = UIImage(systemName: "coloncurrencysign.circle")
+    lazy var coinPictureLabel: UILabel = {
+        let view = UILabel()
+        view.textAlignment = .center
+        view.font = UIFont.boldSystemFont(ofSize: screenWidth)
         view.backgroundColor = UIColor.random
+        view.textColor = UIColor.white.withAlphaComponent(0.5)
         view.contentMode = .scaleAspectFill
         return view
     }()
@@ -75,6 +76,8 @@ class CoinView: UIView, ICoinView {
         nameLabel.text = name
         infoLabel.text = info
         lastUpdatedLabel.text = "updated: " + Date.getTimeStampFrom(stringDate: lastUpdated)
+        let index = name.index(name.startIndex, offsetBy: 1)
+        coinPictureLabel.text = String(name.prefix(upTo: index))
         setupSubviews()
         setupConstraints()
     }
@@ -84,7 +87,7 @@ class CoinView: UIView, ICoinView {
         addSubviews(scrollView)
         scrollView.addSubviews(stackView)
         let stackSubviews = [
-            coinImage,
+            coinPictureLabel,
             lastUpdatedLabel,
             nameLabel,
             infoLabel
@@ -102,13 +105,13 @@ class CoinView: UIView, ICoinView {
             scrollView.bottomAnchor.constraint(equalTo: bottomAnchor)
         ])
 
-        coinImage.translatesAutoresizingMaskIntoConstraints = false
+        coinPictureLabel.translatesAutoresizingMaskIntoConstraints = false
         NSLayoutConstraint.activate([
-            coinImage.topAnchor.constraint(equalTo: stackView.topAnchor),
-            coinImage.trailingAnchor.constraint(equalTo: stackView.trailingAnchor),
-            coinImage.leadingAnchor.constraint(equalTo: stackView.leadingAnchor),
-            coinImage.heightAnchor.constraint(equalToConstant: screenWidth),
-            coinImage.widthAnchor.constraint(equalToConstant: screenWidth)
+            coinPictureLabel.topAnchor.constraint(equalTo: stackView.topAnchor),
+            coinPictureLabel.trailingAnchor.constraint(equalTo: stackView.trailingAnchor),
+            coinPictureLabel.leadingAnchor.constraint(equalTo: stackView.leadingAnchor),
+            coinPictureLabel.heightAnchor.constraint(equalToConstant: screenWidth),
+            coinPictureLabel.widthAnchor.constraint(equalToConstant: screenWidth)
         ])
         
         lastUpdatedLabel.translatesAutoresizingMaskIntoConstraints = false
